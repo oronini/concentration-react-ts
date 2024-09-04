@@ -1,0 +1,58 @@
+.title_content {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.select_wrap p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.select_input_wrap {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.select_input_wrap input[type='radio'] {
+  display: none;
+}
+
+.select_input_wrap label {
+  display: grid;
+  place-content: center;
+  background-color: #fff;
+  width: 100%;
+  height: 3em;
+  font-size: 1.5em;
+  border-radius: 10px;
+  border: 2px solid;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.select_input_wrap label:hover {
+  opacity: 0.6;
+}
+
+.select_input_wrap input[type='radio']:checked + label {
+  background-color: #c8cae0;
+  /* border-color: transparent; */
+}
+
+.title_btn_wrap {
+  width: 400px;
+  max-width: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 8em;
+}
+
+.title_start_button {
+  width: 100%;
+  font-size: 1.3em;
+  margin: 0 auto;
+}

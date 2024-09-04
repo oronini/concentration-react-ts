@@ -1,0 +1,19 @@
+.app {
+  background-color: #ccc;
+  min-height: 100vh;
+}
+
+.game_content {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 4em;
+  padding-top: 12em;
+  position: relative;
+  /* @media screen and (max-width: 648px) {
+    padding: 1.5em;
+  } */
+}

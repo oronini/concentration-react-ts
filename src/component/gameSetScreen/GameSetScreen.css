@@ -1,0 +1,39 @@
+.game_set_screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffffac;
+  z-index: 1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.game_set_title {
+  font-size: 5em;
+  font-weight: bold;
+}
+.game_set_misCount_title {
+  margin-top: 2em;
+  font-size: 3em;
+}
+
+.game_set_miscount {
+  font-size: 4em;
+}
+
+.game_set_button_wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 4em;
+}
+
+.game_set_re_start_button,
+.game_set_title_back_button {
+  width: 80%;
+  margin: 0 auto;
+}

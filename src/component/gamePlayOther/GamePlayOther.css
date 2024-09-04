@@ -1,0 +1,26 @@
+.game_play_other {
+  position: absolute;
+  left: 0;
+  top: 1em;
+  font-size: 1.8em;
+  z-index: 1;
+  width: 100%;
+}
+
+.game_play_miscount {
+  text-align: center;
+}
+
+.game_play_button_wrap {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.game_play_re_start_button,
+.game_play_title_back_button {
+  font-size: 0.5em;
+  width: 38%;
+  max-width: 300px;
+}
